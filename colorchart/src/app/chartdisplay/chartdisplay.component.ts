@@ -64,7 +64,7 @@ export class ChartdisplayComponent implements OnInit {
     const red = parseInt(rgbGroup.controls['red'].value, 10);
     const green = parseInt(rgbGroup.controls['green'].value, 10);
     const blue = parseInt(rgbGroup.controls['blue'].value, 10);
-    
+
     const total = red + green + blue;
     if (total !== 100) {
       alert(
@@ -240,7 +240,6 @@ export class ChartdisplayComponent implements OnInit {
     this.updateRgbTable();
   }
 }
-
 
 //     if (element.i === event.target.category) {
 //       const remaining = 100 - Math.ceil(event.target.y);
